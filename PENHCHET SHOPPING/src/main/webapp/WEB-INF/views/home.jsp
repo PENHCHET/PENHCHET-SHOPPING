@@ -6,7 +6,6 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
-<!-- Mirrored from teamfox.co/themes/pleasure/app/one-page-parallax/ by HTTrack Website Copier/3.x [XR&CO'2013], Thu, 25 Jun 2015 09:55:39 GMT -->
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
