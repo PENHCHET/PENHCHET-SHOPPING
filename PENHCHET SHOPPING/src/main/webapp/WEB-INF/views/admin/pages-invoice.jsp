@@ -19,20 +19,20 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 	<!-- BEGIN CORE CSS -->
-	<link rel="stylesheet" href="../../assets/admin1/css/admin1.css">
-	<link rel="stylesheet" href="../../assets/globals/css/elements.css">
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/assets/admin1/css/admin1.css">
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/assets/globals/css/elements.css">
 	<!-- END CORE CSS -->
 
 	<!-- BEGIN PLUGINS CSS -->
-	<link rel="stylesheet" href="../../assets/globals/css/plugins.css">
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/assets/globals/css/plugins.css">
 	<!-- END PLUGINS CSS -->
 
 	<!-- BEGIN SHORTCUT AND TOUCH ICONS -->
-	<link rel="shortcut icon" href="../../assets/globals/img/icons/favicon.ico">
-	<link rel="apple-touch-icon" href="../../assets/globals/img/icons/apple-touch-icon.png">
+	<link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/assets/globals/img/icons/favicon.ico">
+	<link rel="apple-touch-icon" href="${pageContext.request.contextPath}/resources/assets/globals/img/icons/apple-touch-icon.png">
 	<!-- END SHORTCUT AND TOUCH ICONS -->
 
-	<script src="../../assets/globals/plugins/modernizr/modernizr.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/assets/globals/plugins/modernizr/modernizr.min.js"></script>
 </head>
 <body>
 
@@ -56,7 +56,7 @@
 
 		<div class="nav-user">
 			<div class="user">
-				<img src="../../assets/globals/img/faces/tolga-ergin.jpg" alt="">
+				<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/tolga-ergin.jpg" alt="">
 				<span class="badge">3</span>
 			</div><!--.user-->
 			<div class="cross">
@@ -115,7 +115,7 @@
 							<div class="invoice-heading">
 								<div class="row date-row">
 									<div class="col-md-6 col-xs-6">
-										<img id="barcode" src="../../assets/globals/img/barcode.png" alt="">
+										<img id="barcode" src="${pageContext.request.contextPath}/resources/assets/globals/img/barcode.png" alt="">
 									</div><!--.col-md-6-->
 									<div class="col-md-6 col-xs-6 invoice-id">
 										<h4>INVOICE: #49903123</h4>
@@ -124,7 +124,7 @@
 								</div><!--.row-->
 								<div class="row customer-row">
 									<div class="col-md-6 col-xs-6 company">
-										<a href="#" class="company-logo"><img src="../../assets/admin1/img/logo-blue-large%402x.png" alt=""></a>
+										<a href="#" class="company-logo"><img src="${pageContext.request.contextPath}/resources/assets/admin1/img/logo-blue-large%402x.png" alt=""></a>
 										<h5>TeamFox</h5>
 										44-46 Morningside Road<br>
 										Edinburgh<br>
@@ -132,7 +132,7 @@
 										EH10 4BF
 									</div><!--.col-md-6-->
 									<div class="col-md-6 col-xs-6 customer">
-										<a href="#" class="customer-logo"><img src="../../assets/globals/img/brands/1.png" alt=""></a>
+										<a href="#" class="customer-logo"><img src="${pageContext.request.contextPath}/resources/assets/globals/img/brands/1.png" alt=""></a>
 										<h5>Sample Company</h5>
 										44-46 Morningside Road<br>
 										Edinburgh<br>
@@ -422,7 +422,7 @@
 									<a href="#" class="hidden"><i class="ion-android-delete"></i></a>
 									<a href="#" class="visible">
 										<div class="list-action-left">
-											<img src="../../assets/globals/img/faces/1.jpg" class="face-radius" alt="">
+											<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/1.jpg" class="face-radius" alt="">
 										</div>
 										<div class="list-content">
 											<span class="title">Pari Subramanium</span>
@@ -434,7 +434,7 @@
 									<a href="#" class="hidden"><i class="ion-android-delete"></i></a>
 									<a href="#" class="visible">
 										<div class="list-action-left">
-											<img src="../../assets/globals/img/faces/10.jpg" class="face-radius" alt="">
+											<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/10.jpg" class="face-radius" alt="">
 										</div>
 										<div class="list-content">
 											<span class="title">Andrew Fox</span>
@@ -446,7 +446,7 @@
 									<a href="#" class="hidden"><i class="ion-android-delete"></i></a>
 									<a href="#" class="visible">
 										<div class="list-action-left">
-											<img src="../../assets/globals/img/faces/11.jpg" class="face-radius" alt="">
+											<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/11.jpg" class="face-radius" alt="">
 										</div>
 										<div class="list-content">
 											<span class="title">Lieke Vermeulen</span>
@@ -467,7 +467,7 @@
 									<a href="#" class="hidden"><i class="ion-android-delete"></i></a>
 									<a href="#" class="visible">
 										<div class="list-action-left">
-											<img src="../../assets/globals/img/picjumbo/1.jpg" class="img-radius" alt="">
+											<img src="${pageContext.request.contextPath}/resources/assets/globals/img/picjumbo/1.jpg" class="img-radius" alt="">
 										</div>
 										<div class="list-content">
 											<span class="title">Mobile Trends for 2015</span>
@@ -479,7 +479,7 @@
 									<a href="#" class="hidden"><i class="ion-android-delete"></i></a>
 									<a href="#" class="visible">
 										<div class="list-action-left">
-											<img src="../../assets/globals/img/picjumbo/10.jpg" class="img-radius" alt="">
+											<img src="${pageContext.request.contextPath}/resources/assets/globals/img/picjumbo/10.jpg" class="img-radius" alt="">
 										</div>
 										<div class="list-content">
 											<span class="title">Interview with Phillip Riley</span>
@@ -491,7 +491,7 @@
 									<a href="#" class="hidden"><i class="ion-android-delete"></i></a>
 									<a href="#" class="visible">
 										<div class="list-action-left">
-											<img src="../../assets/globals/img/picjumbo/11.jpg" class="img-radius" alt="">
+											<img src="${pageContext.request.contextPath}/resources/assets/globals/img/picjumbo/11.jpg" class="img-radius" alt="">
 										</div>
 										<div class="list-content">
 											<span class="title">Workspaces</span>
@@ -503,7 +503,7 @@
 									<a href="#" class="hidden"><i class="ion-android-delete"></i></a>
 									<a href="#" class="visible">
 										<div class="list-action-left">
-											<img src="../../assets/globals/img/picjumbo/5.jpg" class="img-radius" alt="">
+											<img src="${pageContext.request.contextPath}/resources/assets/globals/img/picjumbo/5.jpg" class="img-radius" alt="">
 										</div>
 										<div class="list-content">
 											<span class="title">Graphics &amp; Multimedia</span>
@@ -515,7 +515,7 @@
 									<a href="#" class="hidden"><i class="ion-android-delete"></i></a>
 									<a href="#" class="visible">
 										<div class="list-action-left">
-											<img src="../../assets/globals/img/picjumbo/6.jpg" class="img-radius" alt="">
+											<img src="${pageContext.request.contextPath}/resources/assets/globals/img/picjumbo/6.jpg" class="img-radius" alt="">
 										</div>
 										<div class="list-content">
 											<span class="title">Interactive Storytelling</span>
@@ -557,7 +557,7 @@
 							<li class="has-action-left has-action-right">
 								<a href="#" class="visible" data-message-id="1">
 									<div class="list-action-left">
-										<img src="../../assets/globals/img/faces/1.jpg" class="face-radius" alt="">
+										<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/1.jpg" class="face-radius" alt="">
 									</div>
 									<div class="list-content">
 										<span class="title">Pari Subramanium</span>
@@ -572,7 +572,7 @@
 							<li class="has-action-left has-action-right">
 								<a href="#" class="visible" data-message-id="2">
 									<div class="list-action-left">
-										<img src="../../assets/globals/img/faces/10.jpg" class="face-radius" alt="">
+										<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/10.jpg" class="face-radius" alt="">
 									</div>
 									<div class="list-content">
 										<span class="title">Andrew Fox</span>
@@ -587,7 +587,7 @@
 							<li class="has-action-left has-action-right">
 								<a href="#" class="visible" data-message-id="3">
 									<div class="list-action-left">
-										<img src="../../assets/globals/img/faces/11.jpg" class="face-radius" alt="">
+										<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/11.jpg" class="face-radius" alt="">
 									</div>
 									<div class="list-content">
 										<span class="title">Lieke Vermeulen</span>
@@ -602,7 +602,7 @@
 							<li class="has-action-left has-action-right">
 								<a href="#" class="visible" data-message-id="4">
 									<div class="list-action-left">
-										<img src="../../assets/globals/img/faces/2.jpg" class="face-radius" alt="">
+										<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/2.jpg" class="face-radius" alt="">
 									</div>
 									<div class="list-content">
 										<span class="title">Benjamin Beck</span>
@@ -617,7 +617,7 @@
 							<li class="has-action-left has-action-right">
 								<a href="#" class="visible" data-message-id="5">
 									<div class="list-action-left">
-										<img src="../../assets/globals/img/faces/12.jpg" class="face-radius" alt="">
+										<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/12.jpg" class="face-radius" alt="">
 									</div>
 									<div class="list-content">
 										<span class="title">Joshua Harris</span>
@@ -632,7 +632,7 @@
 							<li class="has-action-left has-action-right">
 								<a href="#" class="visible" data-message-id="1">
 									<div class="list-action-left">
-										<img src="../../assets/globals/img/faces/13.jpg" class="face-radius" alt="">
+										<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/13.jpg" class="face-radius" alt="">
 									</div>
 									<div class="list-content">
 										<span class="title">Lisa Cooper</span>
@@ -647,7 +647,7 @@
 							<li class="has-action-left has-action-right">
 								<a href="#" class="visible" data-message-id="2">
 									<div class="list-action-left">
-										<img src="../../assets/globals/img/faces/16.jpg" class="face-radius" alt="">
+										<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/16.jpg" class="face-radius" alt="">
 									</div>
 									<div class="list-content">
 										<span class="title">Matthew Harris</span>
@@ -662,7 +662,7 @@
 							<li class="has-action-left has-action-right">
 								<a href="#" class="visible" data-message-id="3">
 									<div class="list-action-left">
-										<img src="../../assets/globals/img/faces/17.jpg" class="face-radius" alt="">
+										<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/17.jpg" class="face-radius" alt="">
 									</div>
 									<div class="list-content">
 										<span class="title">Diana Nguyen</span>
@@ -682,33 +682,33 @@
 							<div class="messages">
 								<div class="message left">
 									<div class="message-text">Hello!</div>
-									<img src="../../assets/globals/img/faces/1.jpg" class="user-picture" alt="">
+									<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/1.jpg" class="user-picture" alt="">
 								</div>
 								<div class="message right">
 									<div class="message-text">Hi!</div>
 									<div class="message-text">Credibly innovate granular internal or "organic" sources whereas high standards in web-readiness. Energistically scale future-proof core competencies vis-a-vis impactful experiences.</div>
-									<img src="../../assets/globals/img/faces/tolga-ergin.jpg" class="user-picture" alt="">
+									<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/tolga-ergin.jpg" class="user-picture" alt="">
 								</div>
 								<div class="message left">
 									<div class="message-text">Dramatically synthesize integrated schemas with optimal networks.</div>
-									<img src="../../assets/globals/img/faces/1.jpg" class="user-picture" alt="">
+									<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/1.jpg" class="user-picture" alt="">
 								</div>
 								<div class="message right">
 									<div class="message-text">Interactively procrastinate high-payoff content</div>
-									<img src="../../assets/globals/img/faces/tolga-ergin.jpg" class="user-picture" alt="">
+									<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/tolga-ergin.jpg" class="user-picture" alt="">
 								</div>
 								<div class="message left">
 									<div class="message-text">Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures.</div>
 									<div class="message-text">Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies without market-driven best practices.</div>
-									<img src="../../assets/globals/img/faces/1.jpg" class="user-picture" alt="">
+									<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/1.jpg" class="user-picture" alt="">
 								</div>
 								<div class="message right">
 									<div class="message-text">Distinctively exploit optimal alignments for intuitive bandwidth</div>
-									<img src="../../assets/globals/img/faces/tolga-ergin.jpg" class="user-picture" alt="">
+									<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/tolga-ergin.jpg" class="user-picture" alt="">
 								</div>
 								<div class="message left">
 									<div class="message-text">Quickly coordinate e-business applications through</div>
-									<img src="../../assets/globals/img/faces/1.jpg" class="user-picture" alt="">
+									<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/1.jpg" class="user-picture" alt="">
 								</div>
 							</div><!--.messages-->
 
@@ -772,7 +772,7 @@
 								<a href="#" class="hidden"><i class="ion-android-delete"></i></a>
 								<a href="#" class="visible">
 									<div class="list-action-left">
-										<img src="../../assets/globals/img/faces/13.jpg" class="face-radius" alt="">
+										<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/13.jpg" class="face-radius" alt="">
 									</div>
 									<div class="list-content">
 										<span class="caption">Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</span>
@@ -787,7 +787,7 @@
 								<a href="#" class="hidden"><i class="ion-android-delete"></i></a>
 								<a href="#" class="visible">
 									<div class="list-action-left">
-										<img src="../../assets/globals/img/faces/14.jpg" class="face-radius" alt="">
+										<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/14.jpg" class="face-radius" alt="">
 									</div>
 									<div class="list-content">
 										<span class="caption">Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.</span>
@@ -847,7 +847,7 @@
 								<a href="#" class="hidden"><i class="ion-android-delete"></i></a>
 								<a href="#" class="visible">
 									<div class="list-action-left">
-										<img src="../../assets/globals/img/faces/17.jpg" class="face-radius" alt="">
+										<img src="${pageContext.request.contextPath}/resources/assets/globals/img/faces/17.jpg" class="face-radius" alt="">
 									</div>
 									<div class="list-content">
 										<span class="caption">Synergistically evolve 2.0 technologies rather than just in time initiatives. Quickly deploy strategic networks with compelling e-business. Credibly pontificate highly efficient manufactured products and enabled data.</span>
@@ -964,21 +964,21 @@
 	</div><!--.layer-container-->
 
 	<!-- BEGIN GLOBAL AND THEME VENDORS -->
-	<script src="../../assets/globals/js/global-vendors.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/assets/globals/js/global-vendors.js"></script>
 	<!-- END GLOBAL AND THEME VENDORS -->
 
 	<!-- BEGIN PLUGINS AREA -->
-	<script src="../../assets/globals/plugins/jsbarcode/JsBarcode.all.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/assets/globals/plugins/jsbarcode/JsBarcode.all.min.js"></script>
 	<!-- END PLUGINS AREA -->
 
 	<!-- PLUGINS INITIALIZATION AND SETTINGS -->
-	<script src="../../assets/globals/scripts/invoice.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/assets/globals/scripts/invoice.js"></script>
 	<!-- END PLUGINS INITIALIZATION AND SETTINGS -->
 
 	<!-- PLEASURE -->
-	<script src="../../assets/globals/js/pleasure.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/assets/globals/js/pleasure.js"></script>
 	<!-- ADMIN 1 -->
-	<script src="../../assets/admin1/js/layout.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/assets/admin1/js/layout.js"></script>
 
 	<!-- BEGIN INITIALIZATION-->
 	<script>
@@ -995,7 +995,7 @@
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','../../../../../www.google-analytics.com/analytics.js','ga');
+		})(window,document,'script','../../../www.google-analytics.com/analytics.js','ga');
 
 		ga('create', Pleasure.settings.ga.urchin, Pleasure.settings.ga.url);
 		ga('send', 'pageview');
