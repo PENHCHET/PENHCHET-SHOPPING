@@ -62,11 +62,8 @@ public class HomeController {
 	
 	@RequestMapping(value = "/pageinvoice", method = RequestMethod.GET)
 	public String pageInvoice(Locale locale, Model model) {
-		try{
-			logger.info("Welcome Admin Invoice Page! The client locale is {}.", locale);
-		}catch(Exception ex){
-			
-		}
+		logger.info("Welcome Admin Invoice Page! The client locale is {}.", locale);
+		
 		return "admin/pages-invoice";
 	}
 	
