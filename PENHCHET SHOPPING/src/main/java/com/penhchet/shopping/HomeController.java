@@ -60,6 +60,16 @@ public class HomeController {
 		return "admin/pages-coming-soon";
 	}
 	
+	@RequestMapping(value = "/pageinvoice", method = RequestMethod.GET)
+	public String pageInvoice(Locale locale, Model model) {
+		try{
+			logger.info("Welcome Admin Invoice Page! The client locale is {}.", locale);
+		}catch(Exception ex){
+			
+		}
+		return "admin/email-invoice";
+	}
+	
 	@RequestMapping(value = "/connection", method = RequestMethod.GET)
 	public String connection(Locale locale, Model model) {
 		try{
@@ -80,4 +90,6 @@ public class HomeController {
 		}
 		return "admin/pages-coming-soon";
 	}
+	
+	
 }
