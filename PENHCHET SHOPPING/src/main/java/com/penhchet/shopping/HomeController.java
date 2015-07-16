@@ -67,7 +67,7 @@ public class HomeController {
 		}catch(Exception ex){
 			
 		}
-		return "admin/email-invoice";
+		return "admin/pages-invoice";
 	}
 	
 	@RequestMapping(value = "/connection", method = RequestMethod.GET)
