@@ -43,21 +43,21 @@ public class HomeController {
 	public String login(Locale locale, Model model) {
 		logger.info("Welcome Admin Page! The client locale is {}.", locale);
 		
-		return "admin/themes/pleasure/app/admin1/user-login";
+		return "admin/user-login";
 	}
 	
 	@RequestMapping(value = "/admin", method = RequestMethod.GET)
 	public String admin(Locale locale, Model model) {
 		logger.info("Welcome Admin Page! The client locale is {}.", locale);
 		
-		return "admin/themes/pleasure/app/admin1/index";
+		return "admin/index";
 	}
 	
 	@RequestMapping(value = "/comingsoon", method = RequestMethod.GET)
 	public String comingSoon(Locale locale, Model model) {
 		logger.info("Welcome Admin Page! The client locale is {}.", locale);
 		
-		return "admin/themes/pleasure/app/admin1/pages-coming-soon";
+		return "admin/pages-coming-soon";
 	}
 	
 	@RequestMapping(value = "/connection", method = RequestMethod.GET)
@@ -78,6 +78,6 @@ public class HomeController {
 		}catch(Exception ex){
 			
 		}
-		return "admin/themes/pleasure/app/admin1/pages-coming-soon";
+		return "admin/pages-coming-soon";
 	}
 }
