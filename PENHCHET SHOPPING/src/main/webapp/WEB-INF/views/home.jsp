@@ -434,6 +434,4 @@
 	<!-- END Google Analytics -->
 
 </body>
-
-<!-- Mirrored from teamfox.co/themes/pleasure/app/one-page-parallax/ by HTTrack Website Copier/3.x [XR&CO'2013], Thu, 25 Jun 2015 09:56:02 GMT -->
 </html>
