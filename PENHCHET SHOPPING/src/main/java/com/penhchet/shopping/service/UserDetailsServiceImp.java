@@ -3,8 +3,6 @@ package com.penhchet.shopping.service;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import javax.transaction.Transactional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -20,15 +18,14 @@ import com.penhchet.shopping.model.UserStatus;
 @Service("userDetailsService")
 public class UserDetailsServiceImp implements UserDetailsService {
 
-	@Autowired
-	
+	@Autowired	
 	private UserDAO userDAO;
 	
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		User user = userDAO.findByName(username);
+		String password = user.getPassword();
 		if(user!=null){
-			String password = user.getPassword();
 			// ADDITIONAL INFORMATION ON THE SECURITY OBJECT
 			boolean enabled = user.getStatus().equals(UserStatus.ACTIVE);
 			boolean accountNonExpired = user.getStatus().equals(UserStatus.ACTIVE);

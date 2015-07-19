@@ -14,11 +14,11 @@
 <!-- 	</http> -->
 	
 	<!-- 2.BASIC FORM SECURITY -->
- 	<http>
-		<intercept-url pattern="/welcome*" access="hasRole('ROLE_USER')"/>
-		<form-login/>
-		<logout logout-success-url=""/>
-	</http>
+<!--  	<http> -->
+<!-- 		<intercept-url pattern="/welcome*" access="hasRole('ROLE_USER')"/> -->
+<!-- 		<form-login/> -->
+<!-- 		<logout logout-success-url=""/> -->
+<!-- 	</http> -->
 	
 	<!-- 3.CUSTOM FORM SECURITY -->
 <!--  	<http> -->
@@ -56,23 +56,23 @@
 <!-- 		</authentication-provider> -->
 <!-- 	</authentication-manager> -->
 
-	<beans:bean id="daoAuthenticationProvider" class="org.springframework.sercurity.authentication.dao.DaoAuthenticationProvider">
-		<beans:property name="userDetailsService" ref="userDetailsService"></beans:property>
-	</beans:bean>
+<!-- 	<beans:bean id="daoAuthenticationProvider" class="org.springframework.sercurity.authentication.dao.DaoAuthenticationProvider"> -->
+<!-- 		<beans:property name="userDetailsService" ref="userDetailsService"></beans:property> -->
+<!-- 	</beans:bean> -->
 
-	<beans:bean id="authenticationManager" class="org.springframework.security.authentication.PrividerManager">
-		<beans:property name="providers">
-			<beans:list>
-				<beans:ref local="daoAuthenticationProvider"/>
-			</beans:list>
-		</beans:property>
-	</beans:bean>
+<!-- 	<beans:bean id="authenticationManager" class="org.springframework.security.authentication.PrividerManager"> -->
+<!-- 		<beans:property name="providers"> -->
+<!-- 			<beans:list> -->
+<!-- 				<beans:ref local="daoAuthenticationProvider"/> -->
+<!-- 			</beans:list> -->
+<!-- 		</beans:property> -->
+<!-- 	</beans:bean> -->
 	
-	<authentication-manager>
-		<authentication-provider user-service-ref="userDetailsService">
-		<password-encoder hash="md5"></password-encoder>
-		</authentication-provider>
-	</authentication-manager>
+<!-- 	<authentication-manager> -->
+<!-- 		<authentication-provider user-service-ref="userDetailsService"> -->
+<!-- 		<password-encoder hash="md5"></password-encoder> -->
+<!-- 		</authentication-provider> -->
+<!-- 	</authentication-manager> -->
 	
 </beans:beans>
 	
