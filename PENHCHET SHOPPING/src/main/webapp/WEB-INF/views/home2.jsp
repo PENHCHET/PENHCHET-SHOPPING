@@ -49,8 +49,8 @@
 		<div class="container">
 
 			<div class="logo">
-				<img src="${pageContext.request.contextPath}/resources/assets/one-page-parallax/img/logo.jpg" alt="Penhchet">
-				<!-- <h4 style="color: #3e50b4; font-weight:200; font-weight:bold;">PENHCHET <span style="font-weight:bold;"> SHOP</span></h4> -->
+				<!-- <img src="../../assets/one-page-parallax/img/logo.jpg" alt="Pleasure"> -->
+				<h4 style="color: #3e50b4; font-weight:200; font-weight:bold;">PENHCHET SHOPPING<span style="font-weight:bold;"></span></h4>
 
 			</div><!--.logo-->
 
@@ -59,7 +59,7 @@
 			* data-nav-link attribute is necessary for data-anchor links.
 			* data-anchor="slide1" attribute is useful when user clicks the data-nav-link, the window moves the related slide.
 			-->
-			<div class="animated-selector">
+			<!-- <div class="animated-selector">
 				<ul class="navigation">
 					<li data-anchor="slide1" data-nav-link>FEATURES</li>
 					<li data-anchor="slide2" data-nav-link>PLANS</li>
@@ -68,8 +68,8 @@
 					<li data-anchor="slide5" data-nav-link>CONTACT</li>
 				</ul>
 				<div class="selector"></div>
-			</div> <!--.animated-selector-->
-			<!-- <div class="animated-selector" style="font-family:Hanuman;">
+			</div> --><!--.animated-selector-->
+			<div class="animated-selector" style="font-family:Hanuman;">
 				<div class="navigation">
 					<div class="inputer" style="float:left; margin-right:10px; width:400px;">
 						<div class="input-wrapper">
@@ -80,7 +80,7 @@
 					<a href="http://www.penhchet-shopping.com/login" class="btn btn-indigo btn-ripple" target="_blank">បញ្ជីចង់ទិញ</a>
 					<a href="http://www.penhchet-shopping.com/login" class="btn btn-indigo btn-ripple" target="_blank">កន្រ្តកទំនិញ</a>
 				</div>
-			</div> -->
+			</div>
 			
 
 			<div class="btn-action" style="font-family:Hanuman;">
@@ -126,7 +126,7 @@
 	</div><!--.slide-hero-->
 	<br />
 
-	<!--
+	<%-- <!--
 	* data-nav="slide1" attribute is an identifier for data-nav-links.
 	-->
 	<div class="slide" data-nav="slide1">
@@ -175,9 +175,9 @@
 
 		</div><!--.container-->
 
-	</div><!--.slide--> 
+	</div><!--.slide--> --%>
 
- 	<div class="slide bg-light-grey" data-nav="slide2">
+<%-- 	<div class="slide bg-light-grey" data-nav="slide2">
 
 		<div class="container">
 
@@ -222,9 +222,9 @@
 			<a class="btn btn-large btn-floating btn-amber btn-next btn-next-right" data-anchor="slide3" data-nav-link><i class="fa fa-chevron-down"></i></a>
 
 		</div><!--.container-->
-	</div><!--.slide-->
+	</div><!--.slide--> --%>
 
-	<div class="slide bg-image-with-shadow" style="background-image: url('${pageContext.request.contextPath}/resources/assets/one-page-parallax/img/bg-overview.jpg'); " data-nav="slide3">
+	<%-- <div class="slide bg-image-with-shadow" style="background-image: url('${pageContext.request.contextPath}/resources/assets/one-page-parallax/img/bg-overview.jpg'); " data-nav="slide3">
 		<div class="container">
 			<h3 class="text-white text-center">OVERVIEW</h3>
 			<p class="caption text-white text-center">Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
@@ -262,12 +262,12 @@
 			<a class="btn btn-large btn-floating btn-teal btn-next btn-next-center" data-anchor="slide4" data-nav-link><i class="fa fa-chevron-down"></i></a>
 
 		</div><!--.container-->
-	</div><!--.slide-->
+	</div><!--.slide--> --%>
 
 	<%-- <div class="slide bg-pattern" style="background-image: url('${pageContext.request.contextPath}/resources/assets/globals/img/patterns/sativa.png');" data-nav="slide4">
 		<div class="container">
 			<h3 class="text-black text-center">ABOUT US</h3>
-			<p class="caption text-center"></p>
+			<p class="caption text-center">Our company is located in Istanbul, Turkey and London, England.</p>
 
 			<div class="row transform-bug">
 				<div class="col-md-3 col-sm-4 col-xs-12" data-bottom-top="bottom:-100px" data-center="bottom:0px">
@@ -334,8 +334,8 @@
 
 		</div><!--.container-->
 
-	</div><!--.slide--> --%>
-
+	</div><!--.slide-->
+ --%>
 	<div class="slide" data-nav="slide5" style="font-family:Hanuman;">
 
 		<div class="container">
