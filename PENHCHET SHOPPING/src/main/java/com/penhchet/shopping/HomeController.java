@@ -43,7 +43,7 @@ public class HomeController {
 	public String login(Locale locale, Model model) {
 		logger.info("Welcome Admin Page! The client locale is {}.", locale);
 		
-		return "admin/user-login";
+		return "admin/users/user-login";
 	}
 	
 	@RequestMapping(value = "/admin", method = RequestMethod.GET)
@@ -74,13 +74,6 @@ public class HomeController {
 			Session session = HibernateUtil.getSessionFactory().openSession();
 			session.beginTransaction();
 			session.close();
-			System.out.println("Successfully!!!");
-			System.out.println("Successfully!!!");
-			System.out.println("Successfully!!!");
-			System.out.println("Successfully!!!");
-			System.out.println("Successfully!!!");
-			System.out.println("Successfully!!!");
-			System.out.println("Successfully!!!");
 			System.out.println("Successfully!!!");
 		}catch(Exception ex){
 			
